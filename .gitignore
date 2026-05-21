@@ -1,0 +1,9 @@
+# Ignorar dependências do Node
+node_modules/
+
+# Ignorar pastas de mídia que o Cypress gera automaticamente nos testes
+cypress/videos/
+cypress/screenshots/
+
+# Ignorar arquivos de variáveis de ambiente (onde futuramente você guardaria senhas reais)
+.env
