@@ -15,13 +15,13 @@ it('Deve adicionar um produto ao carrinho e verificar o carrinho', () => {
     cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click()
 
     // verifica se tem 1 item no carrinho
-    cy.get('shopping_cart_badge').should('have.text', '1')
+    cy.get('[data-test="shopping-cart-badge"]').should('have.text', '1')
     
     // remover o item do carrinho
     cy.get('[data-test="remove-sauce-labs-backpack"]').click()
 
     // verifica se o carrinho está vazio
-    cy.get('shopping_cart_badge').should('not.exist')
+    cy.get('[data-test="shopping-cart-badge"]').should('not.exist')
 })
 
 

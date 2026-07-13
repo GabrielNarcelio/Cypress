@@ -1,4 +1,4 @@
-# Cypress - Portfolio de Testes E2E
+# Cypress - Testes E2E
 
 Projeto de automacao de testes end-to-end com Cypress, criado para demonstrar habilidades praticas em:
 
@@ -53,4 +53,4 @@ Este repositorio foi estruturado como portfolio tecnico para mostrar minha evolu
 
 ## Autor
 
-Desenvolvido por Narcelio para fins de estudo e portfolio profissional em testes automatizados.
+Desenvolvido por Gabroel Narcelio para fins de estudo e portfolio profissional em testes automatizados.

@@ -17,7 +17,7 @@ describe('Página de Login do Sauce Demo', () => {
     cy.get('#login-button').click()
 
     // Valida que o login falhou e a mensagem correta apareceu
-    cy.get('[data-test="error"]').should('have.text', 'Epic sadface: Username and password do not match')
+    cy.get('[data-test="error"]').should('have.text', 'Epic sadface: Username and password do not match any user in this service')
   })
 
 })
