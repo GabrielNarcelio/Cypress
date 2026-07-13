@@ -53,4 +53,4 @@ Este repositorio foi estruturado como portfolio tecnico para mostrar minha evolu
 
 ## Autor
 
-Desenvolvido por Narcelio para fins de estudo e portfolio profissional em testes automatizados.
+Desenvolvido por Gabriel para fins de estudo e portfolio profissional em testes automatizados.
